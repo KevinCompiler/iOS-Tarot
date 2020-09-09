@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7t3-5y-L9A">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8ef-ig-VvV">
+            <objects>
+                <navigationController id="7t3-5y-L9A" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4tG-qR-Y8X">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ecq-PX-x5B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XxR-oN-Nad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-745" y="139"/>
+        </scene>
+        <!--Name View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NameViewController" customModule="Angel_s_Tarot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-2" translatesAutoresizingMaskIntoConstraints="NO" id="ySr-UH-BOW">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter Your Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLz-56-LFZ">
+                                <rect key="frame" x="45" y="272" width="369" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name goes here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgz-Ix-mdd">
+                                <rect key="frame" x="45" y="330.5" width="324" height="34"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardAppearance="alert" returnKeyType="go" textContentType="name"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltE-Im-czq">
+                                <rect key="frame" x="172.5" y="458" width="69" height="34"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                <state key="normal" title="Let's go"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpg-xL-fVG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plese Enter your name here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMu-5q-CSV">
+                                <rect key="frame" x="45" y="306.5" width="324" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ltE-Im-czq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="1rT-VK-uBT"/>
+                            <constraint firstItem="bLz-56-LFZ" firstAttribute="leading" secondItem="jgz-Ix-mdd" secondAttribute="leading" id="3aC-mt-wew"/>
+                            <constraint firstAttribute="bottom" secondItem="ySr-UH-BOW" secondAttribute="bottom" id="Bka-m1-RNK"/>
+                            <constraint firstItem="bLz-56-LFZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="184" id="HZP-X7-y8Q"/>
+                            <constraint firstItem="bMu-5q-CSV" firstAttribute="trailing" secondItem="jgz-Ix-mdd" secondAttribute="trailing" id="I6p-pJ-1kp"/>
+                            <constraint firstItem="bLz-56-LFZ" firstAttribute="trailing" secondItem="ySr-UH-BOW" secondAttribute="trailing" id="Iay-w2-ysg"/>
+                            <constraint firstItem="bLz-56-LFZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="OCd-jG-Bfp"/>
+                            <constraint firstItem="jgz-Ix-mdd" firstAttribute="top" secondItem="bLz-56-LFZ" secondAttribute="bottom" constant="35" id="PPZ-4u-X90"/>
+                            <constraint firstItem="bMu-5q-CSV" firstAttribute="leading" secondItem="jgz-Ix-mdd" secondAttribute="leading" id="RE2-pH-LJN"/>
+                            <constraint firstItem="ySr-UH-BOW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TYO-eh-hjq"/>
+                            <constraint firstItem="jgz-Ix-mdd" firstAttribute="top" secondItem="bMu-5q-CSV" secondAttribute="bottom" constant="4" id="U0S-Zk-R0W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jgz-Ix-mdd" secondAttribute="trailing" constant="45" id="ZYA-G9-kAF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ySr-UH-BOW" secondAttribute="trailing" id="fhX-69-dDn"/>
+                            <constraint firstItem="ySr-UH-BOW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pWT-bS-Km8"/>
+                            <constraint firstItem="ltE-Im-czq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vwv-dw-RIM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ip-Mt-wvu"/>
+                    <connections>
+                        <outlet property="nameErrorMessage" destination="bMu-5q-CSV" id="BxN-st-0bo"/>
+                        <outlet property="userName" destination="jgz-Ix-mdd" id="niw-bI-aKG"/>
+                        <segue destination="qJd-UR-uDN" kind="show" identifier="nameToQuestionViewControllerSegue" id="aTa-2v-oAK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+        <!--Question View Controller-->
+        <scene sceneID="djM-0d-9W5">
+            <objects>
+                <viewController id="qJd-UR-uDN" customClass="QuestionViewController" customModule="Angel_s_Tarot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xRf-Uc-OCb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-1" translatesAutoresizingMaskIntoConstraints="NO" id="FJd-zX-aQa">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Enter Your Question:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhw-w3-fUw">
+                                <rect key="frame" x="45" y="272" width="369" height="22"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JD9-Tv-Qf6">
+                                <rect key="frame" x="152" y="459" width="110" height="32"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <state key="normal" title="Get My Cards"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="qJd-UR-uDN" eventType="touchUpInside" id="4kd-LX-mLU"/>
+                                    <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIf-Gj-nI9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plese Enter your question here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYq-uF-N6V">
+                                <rect key="frame" x="45" y="305" width="324" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Question Goes Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iPE-jR-Qwv">
+                                <rect key="frame" x="45" y="329" width="324" height="34"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfn-g3-0lK">
+                                <rect key="frame" x="0.0" y="153" width="414" height="44"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GIr-9p-i30" firstAttribute="trailing" secondItem="iPE-jR-Qwv" secondAttribute="trailing" constant="45" id="3Gj-IP-DSb"/>
+                            <constraint firstItem="iPE-jR-Qwv" firstAttribute="top" secondItem="nhw-w3-fUw" secondAttribute="bottom" constant="35" id="3sj-nw-bEt"/>
+                            <constraint firstItem="nhw-w3-fUw" firstAttribute="trailing" secondItem="FJd-zX-aQa" secondAttribute="trailing" id="85J-9y-7F8"/>
+                            <constraint firstItem="nhw-w3-fUw" firstAttribute="leading" secondItem="GIr-9p-i30" secondAttribute="leading" constant="45" id="8Dk-so-Ud0"/>
+                            <constraint firstItem="nhw-w3-fUw" firstAttribute="leading" secondItem="iPE-jR-Qwv" secondAttribute="leading" id="IF6-tA-fmK"/>
+                            <constraint firstAttribute="bottom" secondItem="FJd-zX-aQa" secondAttribute="bottom" id="K8d-Fi-CMA"/>
+                            <constraint firstItem="hfn-g3-0lK" firstAttribute="leading" secondItem="GIr-9p-i30" secondAttribute="leading" id="TEt-fh-jON"/>
+                            <constraint firstItem="GIr-9p-i30" firstAttribute="trailing" secondItem="hfn-g3-0lK" secondAttribute="trailing" id="WzB-lf-YKD"/>
+                            <constraint firstItem="FJd-zX-aQa" firstAttribute="leading" secondItem="GIr-9p-i30" secondAttribute="leading" id="Xjh-MU-r9k"/>
+                            <constraint firstItem="JD9-Tv-Qf6" firstAttribute="centerY" secondItem="GIr-9p-i30" secondAttribute="centerY" id="anG-ec-90X"/>
+                            <constraint firstItem="dYq-uF-N6V" firstAttribute="leading" secondItem="iPE-jR-Qwv" secondAttribute="leading" id="bYG-dJ-qDH"/>
+                            <constraint firstItem="nhw-w3-fUw" firstAttribute="top" secondItem="GIr-9p-i30" secondAttribute="top" constant="184" id="cBr-Ad-tZ4"/>
+                            <constraint firstItem="iPE-jR-Qwv" firstAttribute="top" secondItem="dYq-uF-N6V" secondAttribute="bottom" constant="4" id="ftj-W4-ydj"/>
+                            <constraint firstItem="hfn-g3-0lK" firstAttribute="top" secondItem="GIr-9p-i30" secondAttribute="top" constant="65" id="gn7-Hh-fJc"/>
+                            <constraint firstItem="FJd-zX-aQa" firstAttribute="top" secondItem="GIr-9p-i30" secondAttribute="top" id="hmu-MA-pBK"/>
+                            <constraint firstItem="GIr-9p-i30" firstAttribute="trailing" secondItem="FJd-zX-aQa" secondAttribute="trailing" id="oPR-9A-d7Q"/>
+                            <constraint firstItem="JD9-Tv-Qf6" firstAttribute="centerX" secondItem="GIr-9p-i30" secondAttribute="centerX" id="ruo-kZ-0rU"/>
+                            <constraint firstItem="dYq-uF-N6V" firstAttribute="trailing" secondItem="iPE-jR-Qwv" secondAttribute="trailing" id="z8A-xu-afO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GIr-9p-i30"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YEM-ie-G59"/>
+                    <connections>
+                        <outlet property="question" destination="iPE-jR-Qwv" id="U01-zw-TbJ"/>
+                        <outlet property="questionErrorMessage" destination="dYq-uF-N6V" id="n3R-5c-95I"/>
+                        <outlet property="userName" destination="hfn-g3-0lK" id="Xmv-XG-Lqd"/>
+                        <segue destination="7Q9-Ma-qBU" kind="show" identifier="questionToTarotDisplayStoryboard" id="rfg-5D-7Y5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cR6-mu-D6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063.768115942029" y="138.61607142857142"/>
+        </scene>
+        <!--TarotDisplayer-->
+        <scene sceneID="wnT-1S-9mr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TarotDisplayer" id="7Q9-Ma-qBU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="p7h-aW-ix8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Byl-Au-IJC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-1" width="1060" height="733"/>
+        <image name="bg-2" width="1060" height="1058"/>
+    </resources>
+</document>

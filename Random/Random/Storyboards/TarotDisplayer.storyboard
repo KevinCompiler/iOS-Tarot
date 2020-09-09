@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sX3-LA-N9V">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tarot Displayer View Controller-->
+        <scene sceneID="Ng8-ch-HcJ">
+            <objects>
+                <viewController id="sX3-LA-N9V" customClass="TarotDisplayerViewController" customModule="Angel_s_Tarot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hNw-cG-Jpm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-4" translatesAutoresizingMaskIntoConstraints="NO" id="RC6-ml-bTV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="baz-aw-FPZ">
+                                <rect key="frame" x="125.5" y="94" width="163" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="baz-aw-FPZ" secondAttribute="height" multiplier="1:1.41" id="lX2-Yy-v0u"/>
+                                    <constraint firstAttribute="height" constant="230" id="vCq-34-BMc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cgx-r0-QeF">
+                                <rect key="frame" x="22" y="374" width="163" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="7sh-9d-BgV"/>
+                                    <constraint firstAttribute="width" secondItem="cgx-r0-QeF" secondAttribute="height" multiplier="1:1.41" id="xMw-eu-WTH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mxg-Qr-WLV">
+                                <rect key="frame" x="229" y="374" width="163" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="taa-F0-Hhd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhp-ic-9rA">
+                                <rect key="frame" x="0.0" y="332" width="414" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoa-X9-fiK">
+                                <rect key="frame" x="0.0" y="612" width="207" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8o-Cg-JSs">
+                                <rect key="frame" x="207" y="612" width="207" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWc-Aw-40e">
+                                <rect key="frame" x="125.5" y="94" width="163" height="230"/>
+                                <connections>
+                                    <action selector="onTapPastTarotCard:" destination="sX3-LA-N9V" eventType="touchUpInside" id="qN7-Ls-YG4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYu-Ej-GXZ">
+                                <rect key="frame" x="22" y="374" width="163" height="230"/>
+                                <connections>
+                                    <action selector="onTapPresentTarotCard:" destination="sX3-LA-N9V" eventType="touchUpInside" id="aek-1i-Esk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xh8-Ra-9It">
+                                <rect key="frame" x="229" y="374" width="163" height="230"/>
+                                <connections>
+                                    <action selector="onTapFutureTarotCard:" destination="sX3-LA-N9V" eventType="touchUpInside" id="nJJ-5Z-dGa"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-gW-ykV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-4" translatesAutoresizingMaskIntoConstraints="NO" id="yFM-ne-HlM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Picking Your Cards." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUx-dN-zGf">
+                                        <rect key="frame" x="45" y="180" width="324" height="22"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPj-Op-tUM">
+                                        <rect key="frame" x="45" y="137" width="324" height="28"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5tR-x4-xKu">
+                                        <rect key="frame" x="45" y="432" width="324" height="2"/>
+                                    </progressView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="PUx-dN-zGf" firstAttribute="top" secondItem="vPj-Op-tUM" secondAttribute="bottom" constant="15" id="1EC-PA-46y"/>
+                                    <constraint firstItem="vPj-Op-tUM" firstAttribute="leading" secondItem="PUx-dN-zGf" secondAttribute="leading" id="2ss-Im-J4A"/>
+                                    <constraint firstItem="5tR-x4-xKu" firstAttribute="centerY" secondItem="jKG-gW-ykV" secondAttribute="centerY" constant="-15" id="3Kx-Vy-ZqY"/>
+                                    <constraint firstItem="PUx-dN-zGf" firstAttribute="leading" secondItem="jKG-gW-ykV" secondAttribute="leading" constant="45" id="Hyi-fd-jVy"/>
+                                    <constraint firstItem="yFM-ne-HlM" firstAttribute="top" secondItem="jKG-gW-ykV" secondAttribute="top" id="Mfg-i7-6Ll"/>
+                                    <constraint firstItem="vPj-Op-tUM" firstAttribute="trailing" secondItem="PUx-dN-zGf" secondAttribute="trailing" id="NGX-4L-Zd0"/>
+                                    <constraint firstAttribute="bottom" secondItem="yFM-ne-HlM" secondAttribute="bottom" id="Vcl-cY-Zx9"/>
+                                    <constraint firstItem="PUx-dN-zGf" firstAttribute="top" secondItem="jKG-gW-ykV" secondAttribute="top" constant="180" id="WJo-oz-wbT"/>
+                                    <constraint firstAttribute="trailing" secondItem="PUx-dN-zGf" secondAttribute="trailing" constant="45" id="XP6-qp-Luh"/>
+                                    <constraint firstItem="5tR-x4-xKu" firstAttribute="leading" secondItem="PUx-dN-zGf" secondAttribute="leading" id="aPR-HW-WnU"/>
+                                    <constraint firstItem="5tR-x4-xKu" firstAttribute="trailing" secondItem="PUx-dN-zGf" secondAttribute="trailing" id="glo-NE-gLD"/>
+                                    <constraint firstItem="yFM-ne-HlM" firstAttribute="leading" secondItem="jKG-gW-ykV" secondAttribute="leading" id="mhz-b9-tIW"/>
+                                    <constraint firstAttribute="trailing" secondItem="yFM-ne-HlM" secondAttribute="trailing" id="yyT-Hf-pli"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cgx-r0-QeF" firstAttribute="top" secondItem="baz-aw-FPZ" secondAttribute="bottom" constant="50" id="1ao-45-qj2"/>
+                            <constraint firstItem="RC6-ml-bTV" firstAttribute="leading" secondItem="DPN-iH-z4x" secondAttribute="leading" id="5xa-9L-BvY"/>
+                            <constraint firstAttribute="bottom" secondItem="RC6-ml-bTV" secondAttribute="bottom" id="6Up-81-S4e"/>
+                            <constraint firstItem="xhp-ic-9rA" firstAttribute="leading" secondItem="DPN-iH-z4x" secondAttribute="leading" id="8yu-Ss-tx5"/>
+                            <constraint firstItem="PWc-Aw-40e" firstAttribute="bottom" secondItem="baz-aw-FPZ" secondAttribute="bottom" id="9O6-ht-euL"/>
+                            <constraint firstItem="e8o-Cg-JSs" firstAttribute="top" secondItem="mxg-Qr-WLV" secondAttribute="bottom" constant="8" id="Afr-S7-DAb"/>
+                            <constraint firstItem="mxg-Qr-WLV" firstAttribute="centerX" secondItem="DPN-iH-z4x" secondAttribute="centerX" multiplier="1.5" id="DOq-oa-izD"/>
+                            <constraint firstItem="PWc-Aw-40e" firstAttribute="top" secondItem="baz-aw-FPZ" secondAttribute="top" id="Db8-f1-66A"/>
+                            <constraint firstItem="aoa-X9-fiK" firstAttribute="leading" secondItem="DPN-iH-z4x" secondAttribute="leading" id="EcE-vW-A5c"/>
+                            <constraint firstItem="xhp-ic-9rA" firstAttribute="top" secondItem="baz-aw-FPZ" secondAttribute="bottom" constant="8" id="FLX-6D-E1I"/>
+                            <constraint firstAttribute="bottom" secondItem="jKG-gW-ykV" secondAttribute="bottom" id="G2h-fm-1Hz"/>
+                            <constraint firstItem="Xh8-Ra-9It" firstAttribute="leading" secondItem="mxg-Qr-WLV" secondAttribute="leading" id="JVN-qj-Ucr"/>
+                            <constraint firstItem="jKG-gW-ykV" firstAttribute="top" secondItem="hNw-cG-Jpm" secondAttribute="top" id="TIb-Ge-TiM"/>
+                            <constraint firstItem="e8o-Cg-JSs" firstAttribute="centerX" secondItem="Xh8-Ra-9It" secondAttribute="centerX" id="UhJ-Pm-aNM"/>
+                            <constraint firstItem="Xh8-Ra-9It" firstAttribute="trailing" secondItem="mxg-Qr-WLV" secondAttribute="trailing" id="Umd-bG-iRg"/>
+                            <constraint firstItem="PWc-Aw-40e" firstAttribute="trailing" secondItem="baz-aw-FPZ" secondAttribute="trailing" id="XZR-AY-7TB"/>
+                            <constraint firstItem="mxg-Qr-WLV" firstAttribute="width" secondItem="mxg-Qr-WLV" secondAttribute="height" multiplier="1:1.41" id="adW-ex-P4b"/>
+                            <constraint firstItem="cgx-r0-QeF" firstAttribute="top" secondItem="mxg-Qr-WLV" secondAttribute="top" id="bVn-Vl-75m"/>
+                            <constraint firstItem="DPN-iH-z4x" firstAttribute="trailing" secondItem="xhp-ic-9rA" secondAttribute="trailing" id="bc4-u3-YMK"/>
+                            <constraint firstItem="PWc-Aw-40e" firstAttribute="leading" secondItem="baz-aw-FPZ" secondAttribute="leading" id="c9c-Kp-W7b"/>
+                            <constraint firstItem="KYu-Ej-GXZ" firstAttribute="bottom" secondItem="cgx-r0-QeF" secondAttribute="bottom" id="dQ6-59-IDa"/>
+                            <constraint firstItem="jKG-gW-ykV" firstAttribute="leading" secondItem="DPN-iH-z4x" secondAttribute="leading" id="g5e-cq-LPW"/>
+                            <constraint firstItem="baz-aw-FPZ" firstAttribute="top" secondItem="DPN-iH-z4x" secondAttribute="top" constant="50" id="h2d-8s-tnh"/>
+                            <constraint firstItem="cgx-r0-QeF" firstAttribute="centerX" secondItem="DPN-iH-z4x" secondAttribute="centerX" multiplier="0.5" id="h8E-XM-Rbb"/>
+                            <constraint firstItem="baz-aw-FPZ" firstAttribute="centerX" secondItem="DPN-iH-z4x" secondAttribute="centerX" id="kHA-GG-m7t"/>
+                            <constraint firstItem="KYu-Ej-GXZ" firstAttribute="leading" secondItem="cgx-r0-QeF" secondAttribute="leading" id="kwm-Y4-vnr"/>
+                            <constraint firstItem="Xh8-Ra-9It" firstAttribute="bottom" secondItem="mxg-Qr-WLV" secondAttribute="bottom" id="m68-D1-O2f"/>
+                            <constraint firstItem="Xh8-Ra-9It" firstAttribute="top" secondItem="mxg-Qr-WLV" secondAttribute="top" id="o9a-qN-j7s"/>
+                            <constraint firstItem="KYu-Ej-GXZ" firstAttribute="top" secondItem="cgx-r0-QeF" secondAttribute="top" id="qwO-CC-Jhy"/>
+                            <constraint firstItem="aoa-X9-fiK" firstAttribute="top" secondItem="cgx-r0-QeF" secondAttribute="bottom" constant="8" id="tTr-bM-O1d"/>
+                            <constraint firstItem="aoa-X9-fiK" firstAttribute="centerX" secondItem="KYu-Ej-GXZ" secondAttribute="centerX" id="tdT-NC-qQU"/>
+                            <constraint firstItem="KYu-Ej-GXZ" firstAttribute="trailing" secondItem="cgx-r0-QeF" secondAttribute="trailing" id="u23-KD-aHW"/>
+                            <constraint firstItem="DPN-iH-z4x" firstAttribute="trailing" secondItem="RC6-ml-bTV" secondAttribute="trailing" id="uoj-Uv-GjO"/>
+                            <constraint firstItem="DPN-iH-z4x" firstAttribute="trailing" secondItem="e8o-Cg-JSs" secondAttribute="trailing" id="vfh-bL-MY5"/>
+                            <constraint firstItem="DPN-iH-z4x" firstAttribute="trailing" secondItem="jKG-gW-ykV" secondAttribute="trailing" id="vvr-eI-beU"/>
+                            <constraint firstItem="RC6-ml-bTV" firstAttribute="top" secondItem="hNw-cG-Jpm" secondAttribute="top" id="xgj-Wh-qn6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DPN-iH-z4x"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardPickingText" destination="PUx-dN-zGf" id="to3-Zy-kpT"/>
+                        <outlet property="futureTarotCardNameLabel" destination="e8o-Cg-JSs" id="Yxu-kN-4Tm"/>
+                        <outlet property="futureTarotImageView" destination="mxg-Qr-WLV" id="WCa-Yf-8by"/>
+                        <outlet property="loadOverlay" destination="jKG-gW-ykV" id="qYx-iq-pbF"/>
+                        <outlet property="loadingProgressView" destination="5tR-x4-xKu" id="O8k-SR-362"/>
+                        <outlet property="pastTarotCardNameLabel" destination="xhp-ic-9rA" id="MCn-GS-hL3"/>
+                        <outlet property="pastTarotImageView" destination="baz-aw-FPZ" id="pp0-QI-XYg"/>
+                        <outlet property="presentTarotCardNameLabel" destination="aoa-X9-fiK" id="HXi-VS-2Vt"/>
+                        <outlet property="presentTarotImageView" destination="cgx-r0-QeF" id="QRg-cy-eng"/>
+                        <outlet property="userName" destination="vPj-Op-tUM" id="Tpv-Ze-EMg"/>
+                        <segue destination="I7b-GB-Hwa" kind="showDetail" identifier="segueToDescriptionViewController" id="Kpr-T1-pgE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d78-Kq-zTx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.7971014492753632" y="103.79464285714285"/>
+        </scene>
+        <!--Tarot Description View Controller-->
+        <scene sceneID="JY7-Gu-R01">
+            <objects>
+                <viewController id="I7b-GB-Hwa" customClass="TarotDescriptionViewController" customModule="Angel_s_Tarot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gvt-Vf-rnk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="RQd-1g-R3C">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="utr-He-doh">
+                                        <rect key="frame" x="118.5" y="39" width="177" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="utr-He-doh" secondAttribute="height" multiplier="1:1.41" id="F48-sy-jmg"/>
+                                            <constraint firstAttribute="height" constant="250" id="sLP-hL-kCk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHM-Lq-47X">
+                                        <rect key="frame" x="25" y="304" width="364" height="26"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXJ-AT-A3f">
+                                        <rect key="frame" x="25" y="355" width="364" height="362.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <mutableString key="content">The Magician card is numbered One – the number of new beginnings and opportunities – and associates with the planet of Mercury. He stands with one arm stretched upwards towards the Universe, and the other pointing down to the earth. His positioning represents his connection between the spiritual realms and the material realms. The Magician uses this relationship to create and manifest his goals in the physical realm. He is the conduit that converts energy into matter. The Magician’s robe is white, symbolising purity, and his cloak is red, representing worldly experience and knowledge.</mutableString>
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="18" name="AmericanTypewriter"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" firstLineHeadIndent="15" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RL3-db-ZSH">
+                                        <rect key="frame" x="8" y="8" width="48" height="30"/>
+                                        <state key="normal" title="&lt; Back"/>
+                                        <connections>
+                                            <action selector="onTapBackButton:" destination="I7b-GB-Hwa" eventType="touchUpInside" id="eSX-DB-JAf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="YHM-Lq-47X" firstAttribute="top" secondItem="utr-He-doh" secondAttribute="bottom" constant="15" id="CDV-Xe-dNf"/>
+                                    <constraint firstItem="utr-He-doh" firstAttribute="centerX" secondItem="OXJ-AT-A3f" secondAttribute="centerX" id="ERN-7h-hCY"/>
+                                    <constraint firstItem="OXJ-AT-A3f" firstAttribute="top" secondItem="YHM-Lq-47X" secondAttribute="bottom" constant="25" id="H4n-Jm-iDq"/>
+                                    <constraint firstItem="YHM-Lq-47X" firstAttribute="trailing" secondItem="OXJ-AT-A3f" secondAttribute="trailing" id="MyG-Yo-9jF"/>
+                                    <constraint firstAttribute="bottom" secondItem="OXJ-AT-A3f" secondAttribute="bottom" constant="10" id="bb3-GR-CVJ"/>
+                                    <constraint firstItem="utr-He-doh" firstAttribute="top" secondItem="RQd-1g-R3C" secondAttribute="top" constant="39" id="h6G-UC-0v4"/>
+                                    <constraint firstAttribute="trailing" secondItem="utr-He-doh" secondAttribute="trailing" constant="118" id="o1U-w3-LS6"/>
+                                    <constraint firstItem="YHM-Lq-47X" firstAttribute="leading" secondItem="OXJ-AT-A3f" secondAttribute="leading" id="rtq-ws-roL"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="trailing" secondItem="3MB-wM-5ed" secondAttribute="trailing" id="6V7-O0-UqK"/>
+                            <constraint firstItem="RL3-db-ZSH" firstAttribute="top" secondItem="3MB-wM-5ed" secondAttribute="top" constant="8" id="8Mh-GO-Zho"/>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="bottom" secondItem="3MB-wM-5ed" secondAttribute="bottom" id="DcX-rt-1CV"/>
+                            <constraint firstItem="OXJ-AT-A3f" firstAttribute="width" secondItem="3MB-wM-5ed" secondAttribute="width" multiplier="0.88" id="Llb-Nl-RdS"/>
+                            <constraint firstItem="RL3-db-ZSH" firstAttribute="leading" secondItem="3MB-wM-5ed" secondAttribute="leading" constant="8" id="PXs-04-9EF"/>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="width" secondItem="Gvt-Vf-rnk" secondAttribute="width" id="Xng-VN-TB9"/>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="top" secondItem="3MB-wM-5ed" secondAttribute="top" id="b6K-VV-cqx"/>
+                            <constraint firstItem="OXJ-AT-A3f" firstAttribute="centerX" secondItem="3MB-wM-5ed" secondAttribute="centerX" id="gHf-L3-UUZ"/>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="height" secondItem="Gvt-Vf-rnk" secondAttribute="height" multiplier="0.912946" priority="750" id="m1z-6R-qzk"/>
+                            <constraint firstItem="RQd-1g-R3C" firstAttribute="leading" secondItem="3MB-wM-5ed" secondAttribute="leading" id="qv2-HY-KoK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3MB-wM-5ed"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2pN-Uk-fqn"/>
+                    <connections>
+                        <outlet property="tarotDescription" destination="OXJ-AT-A3f" id="mWR-Aa-vSK"/>
+                        <outlet property="tarotImage" destination="utr-He-doh" id="B5J-hJ-nac"/>
+                        <outlet property="tarotName" destination="YHM-Lq-47X" id="Yhz-Um-7WR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CNy-4K-DGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192.753623188406" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-4" width="2160" height="3840"/>
+    </resources>
+</document>

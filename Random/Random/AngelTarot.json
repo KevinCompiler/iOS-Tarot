@@ -1,0 +1,179 @@
+{
+ "tarots": [{
+  "id": "1",
+  "name": "The Fool",
+  "description": "On the Fool Tarot card, a young man stands on the edge of a cliff, without a care in the world, as he sets out on a new adventure. He is gazing upwards toward the sky (and the Universe) and is seemingly unaware that he is about to skip off a precipice into the unknown. Over his shoulder rests a modest knapsack containing everything he needs – which isn’t much (let’s say he’s a minimalist). The white rose in his left hand represents his purity and innocence. And at his feet is a small white dog, representing loyalty and protection, that encourages him to charge forward and learn the lessons he came to learn. The mountains behind the Fool symbolise the challenges yet to come. They are forever present, but the Fool doesn’t care about them right now; he’s more focused on starting his expedition."
+ }, {
+  "id": "2",
+  "name": "The Magician",
+  "description": "The Magician card is numbered One – the number of new beginnings and opportunities – and associates with the planet of Mercury. He stands with one arm stretched upwards towards the Universe, and the other pointing down to the earth. His positioning represents his connection between the spiritual realms and the material realms. The Magician uses this relationship to create and manifest his goals in the physical realm. He is the conduit that converts energy into matter. The Magician’s robe is white, symbolising purity, and his cloak is red, representing worldly experience and knowledge. "
+ }, {
+  "id": "3",
+  "name": "The High Priestess",
+  "description": "The High Priestess sits in front of a thin veil decorated with pomegranates. The veil represents the separate conscious and subconscious realms, the seen and the unseen, and serves to keep casual onlookers out. Only the initiated may enter. The pomegranates on the veil are a symbol of abundance, fertility and the divine feminine, and are sacred to Persephone who ate a pomegranate seed in the underworld and was forced to return every year. "
+ }, {
+  "id": "4",
+  "name": "The Empress",
+  "description": "The Empress is a beautiful, full-figured woman with blonde hair and a peaceful aura about her. On her head, she wears a crown of twelve stars, showing her connection with the mystical realm and the cycles of the natural world (the twelve months of the year and the twelve planets). Her robe is patterned with pomegranates, symbolic of fertility, and sits upon a luxurious array of cushions and flowing red velvet. One cushion features the symbol of Venus, the planet of love, creativity, fertility, beauty and grace – the essence of the Empress. "
+ }, {
+  "id": "5",
+  "name": "The Emperor",
+  "description": "If the Empress is the Mother archetype of the Tarot deck, the Emperor is the Father. He sits upon a large stone throne, adorned with four rams’ heads (symbolic of his connection with Aries and the planet Mars). In his right hand, the Emperor holds an ankh, the Egyptian symbol of life, and in his left is an orb representing the world over which he rules. He wears a red robe, indicative of his power, passion and energy for life.Underneath it,he wears a suit of armour,suggesting that he is protected from any threat(and any emotional response or vulnerability).His long white beard is symbolic of his age - old wisdom and experience, and along with his gold crown,he is an authority figure who demands to be heard."
+ }, {
+  "id": "6",
+  "name": "The Heirophant",
+  "description": "The Hierophant is a religious figure sitting between two pillars of a sacred temple – though this temple differs from the one in which the High Priestess sits. He wears three robes – red, blue and white – and a three-tiered crown, both representing the three worlds over which he rules (the conscious, sub-conscious and super-conscious). In his left hand, he holds the Papal Cross, a triple sceptre that signifies his religious status. He raises his right hand in a religious blessing, with two fingers pointing towards Heaven and two towards Earth."
+ }, {
+  "id": "7",
+  "name": "Lovers",
+  "description": "The couple stands in a beautiful, fertile landscape, reminiscent of the Garden of Eden. Behind the woman stands a tall apple tree, with a snake winding its way up the trunk. The serpent and apple tree represent the temptation of sensual pleasures that may take one’s focus away from the Divine. Behind the man is a tree of flames, which represent passion, the primary concern of the man. The twelve flames suggest the twelve zodiac signs, the symbol of time and eternity. The man looks to the woman, who watches the angel, showing the path of the conscious to the subconscious to the super-conscious, or from physical desire to emotional needs to spiritual concerns."
+ }, {
+  "id": "8",
+  "name": "The Chariot",
+  "description": "The Chariot Tarot card shows a brave warrior standing inside a chariot. He wears armour decorated with crescent moons (representing what is coming into being), a tunic with a square (the strength of will) and other alchemical symbols (spiritual transformation). The laurel and star crown signals victory, success and spiritual evolution. Although he appears to be driving the chariot, the charioteer holds no reins – just a wand like the Magician’s – symbolising that he controls through the strength of his will and mind."
+ }, {
+  "id": "9",
+  "name": "Strength",
+  "description": "In the Strength Tarot card, a woman gently strokes a lion on its forehead and jaw. Even though it is known for its ferociousness, the woman has tamed this wild beast with her calming, loving energy. The lion is a symbol of raw passions and desires, and in taming him, the woman shows that animal instinct and raw passion can be expressed in positive ways when inner strength and resilience are applied. She doesn’t use force or coercion; she channels her inner strength to subdue and subtly control the lion."
+ }, {
+  "id": "10",
+  "name": "The Hermit",
+  "description": "The Hermit stands alone on the top of a mountain. The snow-capped range symbolises his spiritual mastery, growth and accomplishment. He has chosen this path of self-discovery and, as a result, has reached a heightened state of awareness.  In his right hand,  he holds a lantern with a six - pointed star inside;it is the Seal of Solomon,  a symbol of wisdom.As the Hermit walks his path,  the lamp lights his way– but it only illuminates his next few steps rather than the full journey.He must step forward to see where to go next,  knowing that not everything will be revealed at once.In his left hand,  the side of the subconscious mind,  the Hermit holds a long staff(a sign of his power and authority),  which he uses to guide and balance him.  "
+ }, {
+  "id": "11",
+  "name": "Wheel of Fortune",
+  "description": "The Wheel of Fortune card shows a giant wheel, with three figures on the outer edges. Four Hebrew letters – YHVH (Yod Heh Vau Heh), the unpronounceable name of God – are inscribed on the wheel’s face. There are also the letters TORA, thought to be a version of the word Torah, meaning ‘law’, or TAROT, or even ROTA (Latin for ‘wheel’). The middle wheel has the alchemical symbols for mercury, sulphur, water and salt – the building blocks of life and the four elements – and represents formative power."
+ }, {
+  "id": "12",
+  "name": "Justice",
+  "description": "She holds a sword in her right hand, showing the logical, well-ordered mindset necessary to dispense fair justice. The sword points upwards – expressing a firm and final decision – and the double-edged blade signifies that our actions always carry consequences. The scales in her left (intuitive) hand, show intuition must balance that logic and are a symbol of her impartiality. Justice wears a crown with a small square on it representing well-ordered thoughts, and a red robe with a green mantle. A little white shoe pops out from beneath her clothing as a reminder of the spiritual consequences of your actions."
+ }, {
+  "id": "13",
+  "name": "The hanged man",
+  "description": "The Hanged Man shows a man suspended from a T-shaped cross made of living wood. He is hanging upside-down, viewing the world from a completely different perspective, and his facial expression is calm and serene, suggesting that he is in this hanging position by his own choice. He has a halo around his head, symbolising new insight, awareness and enlightenment. His right foot is bound to the tree, but his left foot remains free, bent at the knee and tucked in behind his right leg. His arms are bent, with hands held behind his back, forming an inverted triangle. The man is wearing red pants representing human passion and the physical body, and a blue vest for knowledge. The Hanged Man is the card of ultimate surrender, of being suspended in time and of martyrdom and sacrifice to the greater good."
+ }, {
+  "id": "14",
+  "name": "Death",
+  "description": "The Death card shows the Messenger of Death – a skeleton dressed in black armour, riding a white horse. The skeleton represents the part of the body which survives long after life has left it; the armour symbolises invincibility and that death will come no matter what. Its dark colour is that of mourning and the mysterious, while the horse is the colour of purity and acts as a symbol of strength and power. Death carries a black flag decorated with a white, five-petal rose, reflecting beauty, purification and immortality and the number five representing change. Together, these symbols reveal that death isn’t just about life ending. Death is about endings and beginnings, birth and rebirth, change and transformation. There is beauty in death, and it is an inherent part of being alive."
+ }, {
+  "id": "15",
+  "name": "Temperance",
+  "description": "The Temperance card shows a large, winged angel who is both masculine and feminine. She wears a light blue robe with a triangle enclosed in a square on the front, representing that humans (the triangle) are bound by the Earth and natural law (square). The angel balances between one foot on the rocks, expressing the need to stay grounded, and one foot in the water, showing the need to be in flow. She pours water between two cups, symbolic of the flow and alchemy of life."
+ }, {
+  "id": "16",
+  "name": "The Devil",
+  "description": "The Devil card shows Baphomet, or the Horned Goat of Mendes, a creature that is half man, half goat. Baphomet originally represented the balance between good and evil, male and female, and human and animal; however, more recently, this figure has been linked to the occult and has become a scapegoat for all things considered ‘evil’. The Devil has the wings of a vampire bat, an animal that sucks the lifeblood out of its prey, symbolic of what happens when you give in to your raw desires.He has a hypnotic stare which‘ magnetises’ and entrances those who come near him, bringing them under his power.Above him is an inverted pentagram– a sign of the darker side of magic and occultism.He raises his right hand in the Vulcan Salute– a Jewish blessing, later made famous by the film series, Star Trek.In his left hand, he holds a lit torch."
+ }, {
+  "id": "17",
+  "name": "The Tower",
+  "description": "The Tower shows a tall tower perched on the top of a rocky mountain. Lightning strikes set the building alight, and two people leap from the windows, head first and arms outstretched. It is a scene of chaos and destruction.    The Tower itself is a solid structure,    but because it has been built on shaky foundations,    it only takes one bolt of lightning to bring it down.It represents ambitions and goals made on false premises.    "
+ }, {
+  "id": "18",
+  "name": "The Star",
+  "description": "The Star card shows a naked woman kneeling at the edge of a small pool. She holds two containers of water: one in her left hand (the subconscious) and one in her right (the conscious). She pours the water out to nourish the earth and to continue the cycle of fertility, represented by the lush greenery around her. The other container pours the water onto dry land in five rivulets, representing the five senses."
+ }, {
+  "id": "19",
+  "name": "The Moon",
+  "description": "The Moon card shows a full moon in the night’s sky, positioned between two large towers. The Moon is a symbol of intuition, dreams, and the unconscious. Its light is dim compared to the sun, and only slightly illuminates the path to higher consciousness winding between the two towers.   In the foreground is a small pool,   representing the watery,   subconscious mind.A small crayfish crawls out of the pool,   symbolising the early stages of consciousness unfolding.A dog and a wolf stand in the grassy field,   howling at the moon,   representing both the tamed and the wild aspects of our minds.   "
+ }, {
+  "id": "20",
+  "name": "The Sun",
+  "description": "The Sun Tarot card radiates with optimism and positivity. A large, bright sun shines in the sky, representing the source of all life on Earth. Underneath, four sunflowers grow tall above a brick wall, representing the four suits of the Minor Arcana and the four elements.   In the foreground,   a young,   naked child is sitting on top of a calm white horse.The child represents the joy of being connected with your inner spirit,   and his nakedness is a sign he has nothing to hide and has all the innocence and purity of childhood.The white horse is also a sign of purity and strength.   "
+ }, {
+  "id": "21",
+  "name": "Judgement",
+  "description": "The Judgement card shows naked men, women, and children rising from their graves, arms outspread and looking up into the sky. Above, Archangel Gabriel – the Messenger of God – blows his trumpet. The people respond to his call, ready to be judged and to find out if they will be accepted into the heavens or not. In the background is an extensive mountain range, signifying the insurmountable obstacles and the impossibility of avoiding judgement."
+ }, {
+  "id": "22",
+  "name": "The World",
+  "description": "The World card shows a naked woman wrapped in a purple cloth, dancing inside a large laurel wreath. She looks behind her to the past, while her body moves forward to the future. In her hands are two wands or batons, like the one the Magician holds. It is a symbol that what was manifested with the Magician has now come to completion with the World. The wreath is circular, symbolising a continual cycle of successful completion and new beginnings because, as the woman steps through the wreath, she is completing one phase but beginning another one almost straight away."
+ }, {
+  "id": "23",
+  "name": "Reversed Fool",
+  "description": "The Fool reversed suggests that you have conceived of a new project but aren’t ready to ‘birth’ it into the world just yet. You may worry that you are not fit or that you don’t have all the tools, skills and resources you need to make this project a success. Or perhaps you have a sense that the timing isn’t right. Something is holding you back, and you are preventing yourself from moving forward. You may choose to keep this new opportunity to yourself for now, or you might be ‘parking’ it until a better time."
+ }, {
+  "id": "24",
+  "name": "Reversed Magician",
+  "description": "On one level, the reversed Magician shows you are exploring what you wish to manifest, but you are not taking action yet. You are uncertain if you have everything you need and may be unsure about how to make it happen. If you take care of what you intend to manifest, the Universe will work out the how. Stay attuned to your intuition and pay attention to opportunities as they arise. These are like little breadcrumbs that will take you closer to your goal."
+ }, {
+  "id": "25",
+  "name": "Reversed High Priestess",
+  "description": "The reversed High Priestess calls on you to be still and direct your attention inward to listen to your voice and wisdom. You may be swayed by other people’s opinions or swept up in their drama when what you really need to do is focus on what is right for you. It is time to get quiet and withdraw yourself from the external world to observe what your inner guidance is sharing with you now. "
+ }, {
+  "id": "26",
+  "name": "Reversed Empress",
+  "description": "Reversed, the Empress encourages you to make self-love and self-care a priority. Now is the time to bring your loving energy and focus to yourself, especially if you have been giving away your personal power by placing too much emphasis on another person’s emotional or material needs, thus neglecting your own. Book a girls’ weekend, go for a walk on your own or start a creative project that’s just for you. It is essential that you fill your cup and care for yourself so you can then take care of others without resentment."
+ }, {
+  "id": "27",
+  "name": "Reversed Emperor",
+  "description": "The reversed Emperor calls on you to assess your relationship with power, control, authority, responsibility and discipline. Are you expressing too much or too little of these elements in your life right now? Are they working for you or against you?    In the reversed position,    the Emperor can be domineering and rigid in his thinking.The card can suggest an over - use and abuse of authoritative power surrounding you.It could originate from you or from another person,    often a boss,    partner or father figure.And it may be because of deep insecurities or father issues from childhood.    "
+ }, {
+  "id": "28",
+  "name": "Reversed Hierophant",
+  "description": "In its most positive form, the reversed Hierophant reminds you that you are your own teacher. All the wisdom you seek comes from within – not from some external source or power. You are being guided to follow your own path and adopt your own spiritual belief systems rather than blindly following others’. It may feel unsettling at first as you make your own way, but over time, you will learn to trust yourself and tap into your inner knowledge. Others may question your motivations to go against tradition, but you know deep within that now is the time."
+ }, {
+  "id": "29",
+  "name": "Reversed Lovers",
+  "description": "The Lovers card is pure love and harmony. Reversed, it can signal a time when you’re out of sync with those around you, particularly your loved ones. You may find your relationships are strained and communication is challenging. Does it seem as if you are just not on the same page and no longer share the same values? If so, come back to the reason you have this person in your life. If you love him or her unconditionally, know this moment shall pass and the best you can do is bring love and compassion to the situation. In other cases, you may realise that you have simply grown apart and it’s time to move on. If your relationship continues to be peppered by arguments and a lack of respect for one another, then it could be time to let go. Honour yourself and do what is best for you both."
+ }, {
+  "id": "30",
+  "name": "Reversed Chariot",
+  "description": "Reversed, however, the Chariot tells you to ‘back up the truck’ or, as we Aussies say, “Chuck a U-y” (AKA “do a U-turn”). You might bang your head against a brick wall, trying to push a project forward when really, you ought to back off or change direction. Or you might have lost your motivation and no longer feel as committed to the outcome as you did when you started. So, if something is not moving forward as you planned, re-evaluate the situation and check in to see if it’s a sign that you need to change course. Then ask yourself: Is there a deeper reason things have become more challenging? What lesson can I learn here?"
+ }, {
+  "id": "31",
+  "name": "Reversed Strength",
+  "description": "When the reversed Strength card appears in a Tarot reading, tune in to your current levels of inner strength, confidence and self-belief. Are you overflowing with self-confidence, or are you depleted? And how can you bring these aspects back into balance?     If you have recently experienced a setback,     you may be vulnerable and lacking in self - confidence.Know that your core strength will always be with you and now is as good a time as any to reconnect with this power.In fact,     you may hold more strength and resilience than you give yourself credit     for– so,     be kind to yourself.You can also reinvigorate your self - assurance and self - esteem by collecting evidence from your past that proves you have what it takes to succeed and overcome these temporary challenges.     "
+ }, {
+  "id": "32",
+  "name": "Reversed Hermit",
+  "description": "The reversed Hermit can go one of two ways: you are not taking enough time for personal reflection, or you are taking too much. If you struggle to connect with your spiritual self, the Hermit reversed encourages you to create more space to meditate and reflect. It is time to go deeper into your inner being and rediscover your greater purpose on this earth. You may have been so busy dealing with the day-to-day issues that you have forgotten to listen to your inner voice. The Hermit asks you to search deep within your soul to help you find your way again and focus on rebuilding yourself on a spiritual level."
+ }, {
+  "id": "33",
+  "name": "Reversed Wheel of Future",
+  "description": "When the Wheel of Fortune is reversed, your luck and fortune may take a turn for the worst. You may experience unexpected change or negative forces could be at play, leaving you helpless. You have a choice: you can do nothing and hope things will get better, or you can act to improve your situation. See this moment as your opportunity to take control of your destiny and get your life back on track."
+ }, {
+  "id": "34",
+  "name": "Reversed Justice",
+  "description": "The figure of Justice sits in front of a loosely hung purple veil, signifying compassion, and between two pillars, similar to those framing the High Priestess and the Hierophant, which symbolise balance, law and structure.    She holds a sword in her right hand,    showing the logical,    well - ordered mindset necessary to dispense fair justice.The sword points upwards– expressing a firm and final decision– and the double - edged blade signifies that our actions always carry consequences.The scales in her left(intuitive) hand show intuition must balance that logic and are a symbol of her impartiality.Justice wears a crown with a small square on it representing well - ordered thoughts,    and a red robe with a green mantle.A little white shoe pops out from beneath her clothing as a reminder of the spiritual consequences of your actions.    "
+ }, {
+  "id": "35",
+  "name": "Reversed Hanged Man",
+  "description": "Reversed, this card can show that you know you need to hit the pause button, but you are resisting it. Instead, you fill your days with tasks and projects, keeping busy and distracting yourself from the actual issue that needs your attention. Your spirit and body are asking you to slow down, but your mind keeps racing. Stop and rest before it’s too late. The Universe will only dial up the volume if you ignore it, and as a result, you may end up crashing. So, as soon as you hear the call, clear your schedule and make the space so you can tune in and listen."
+ }, {
+  "id": "36",
+  "name": "Reversed Death",
+  "description": "In the reversed position, Death can mean that you are on the verge of meaningful change but are resisting it. You may be reluctant to let go, or you may not know how to make the change you need. You still carry harmful viewpoints from the past that may interfere with a new opportunity. Because of your refusal, life has stagnated, and you feel stuck in limbo."
+ }, {
+  "id": "37",
+  "name": "Reversed Temperance",
+  "description": "If you have recently experienced a period of excess, the reversed Temperance card is your invitation (or sometimes, your warning signal) to restore balance and moderation as soon as possible. You may have been over-eating, regularly drinking, buying things you can’t afford, arguing with loved ones, or engaging in negative thought patterns. These activities are taking you further away from who you are and what you are here to do. So, it is time to stop. As they say, “Everything in moderation!” Or, you may find you need 100% abstinence to break this negative cycle and bring your life back into balance again. "
+ }, {
+  "id": "38",
+  "name": "Reversed Devil",
+  "description": "The reversed Devil card can often appear when you are on the verge of a break-through or an up-levelling. You are being called to your highest potential, but first, you must let go of any unhealthy attachments or limiting beliefs that may hold you back. Often, when you are called to something ‘more’, you must deal with your shadows before you can step into this new version of yourself. It may be an addiction, unhealthy relationships, or a disengaging career. Let go of fear and release any self-imposed limiting beliefs standing in the way of your growth. It is easier than you realise."
+ }, {
+  "id": "39",
+  "name": "Reversed Tower",
+  "description": "The Tower reversed suggests that you are undergoing a significant personal transformation and upheaval. This differs from the experience of the upright Tower where the change is often because of external circumstances and may even feel forced upon you. Instead, with the reversed Tower card, you are instigating the change and calling into question your fundamental belief systems, values, purpose and meaning. You may go through a spiritual awakening as you discover a new spiritual path. You may change your beliefs and opinions about important topics, realising that you can no longer support older models. Or, in more dramatic cases, you may go through an existential crisis where you seriously question your life’s purpose. While this can be an unsettling time, trust in the process and know it is for the best. You are creating change and transformation so you can step into a new and evolved version of yourself."
+ }, {
+  "id": "40",
+  "name": "Reversed Star",
+  "description": "The reversed Star card can mean that you’ve lost faith and hope in the Universe. You may be feeling overwhelmed by life’s challenges right now and questioning why you are being put through this. You know life throws curveballs, but really? Why this, and why now?! You may be desperately calling out to the Universe to give you some reprieve but struggling to see how the Divine is on your side. Look harder and you will see it. The Divine is always there. Take a moment to ask yourself what the deeper life lesson is, and how this is a blessing, not a punishment."
+ }, {
+  "id": "41",
+  "name": "Reversed Moon",
+  "description": "The Moon reversed indicates that you have been dealing with illusion, fears and anxiety, and now the negative influences of these energies are subsiding. You are working through your fears and anxieties, understanding the impact they have on your life and how you can free yourself from such limiting beliefs. This is a truly liberating and transformational experience."
+ }, {
+  "id": "42",
+  "name": "Reversed Sun",
+  "description": "The reversed Sun is calling to your inner child to come out and play! As adults, we get so lost in the hustle and bustle of everyday life that we forget how to have fun. But spend just a few minutes watching a kid play, and you realise how wonderful and carefree life can be when you learn to let go of your worries and concerns. When you see the Sun reversed in your Tarot reading, see it as your permission slip to leave behind your work and responsibilities, even just for a moment, and play. Dance like no-one is watching, sing like no-one is listening, and let your heart and soul fly free."
+ }, {
+  "id": "43",
+  "name": "Reversed Judgement",
+  "description": "Judgement reversed calls for a period of reflection and self-evaluation. Through meditation or quiet contemplation, you may arrive at a deep understanding of the universal themes weaving throughout your life and what you can do or change to avoid these situations. You may have kept them secret or hidden because you fear how others may judge you. To clear these past mistakes and regrets, and any associated guilt or shame, work on your self-forgiveness, self-acceptance, self-love, and release and freedom."
+ }, {
+  "id": "44",
+  "name": "Reversed World",
+  "description": "The reversed World card suggests that you are seeking closure on a personal issue. Perhaps you are still emotionally attached to a past relationship and want to move on. Or you dream of the day you can fit into your old skinny jeans but realise now that your metabolism and body shape changed in the last ten years. You know, deep down, that to accept and embrace where you are now, you need to let go of the past and move on. Finding closure may be an intensely personal journey – something you manage through journaling, visualisation, energy work, and therapy."
+ }]
+}
